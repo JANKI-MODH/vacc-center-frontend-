@@ -10,16 +10,16 @@ function hideMenu(){
     
 }
 
-function sendEmail(){
-    Email.send({
-        Host : "smtp.gemail.com",
-        Username : "jankimodh2003@gmail.com",
-        Password : "janki2003",
-        To : 'jankimodh2003@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New vaccine Enquiry",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-    }
+// let feature = document.getElementById("feature").addEventListener("click",function (){
+
+//     window.location.href = "book.html";
+// });
+
+let feature = document.getElementById("feature");
+function info(){
+    window.location.href = "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination";
+
+}
+function book(){
+    window.location.href = "book.html";
+}

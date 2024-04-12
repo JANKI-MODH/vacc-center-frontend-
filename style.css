@@ -541,9 +541,21 @@ p{
 }
 .contact-col input, .contact-col textarea{
     width: 100%;
-    padding: 12px;
+    padding: 9px;
     margin-bottom: 14px;
     outline: none;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
+
+
+
+.contact-col img{
+    width: 100%;
+     margin-top: 120px;
+ 
+ }
+
+
+
+
